@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | NexusHub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+<body class="signup-page">
+    <div class="container">
+        <div class="form-section">
+            <div class="form-container">
+                <h2>Create Account</h2>
+                <p class="subtitle">Join NexusHub community</p>
+                
+                <form class="auth-form" id="signupForm">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+                    
+                    <div class="form-options">
+                        <div class="remember">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary ripple">Sign up</button>
+                </form>
+                
+                <div class="divider">
+                    <span>or</span>
+                </div>
+                
+                <button class="btn btn-google ripple">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path d="M16.5 9.20455C16.5 8.56636 16.4432 7.95273 16.3386 7.36364H9V10.845H13.1195C12.9318 11.97 12.2523 12.9232 11.1841 13.5614V15.8195H14.042C15.6045 14.3693 16.5 12.24 16.5 9.20455Z" fill="#4285F4"/>
+                        <path d="M9 17C11.295 17 13.2423 16.1945 14.642 14.8195L11.7841 12.5614C11.0073 13.1018 10.0064 13.4205 9 13.4205C6.79773 13.4205 4.91955 11.8373 4.25273 9.75H1.28864V12.0655C2.68409 14.8323 5.59091 17 9 17Z" fill="#34A853"/>
+                        <path d="M4.25273 9.75C4.05273 9.15 3.93864 8.51182 3.93864 7.85227C3.93864 7.19273 4.05273 6.55455 4.25273 5.95455V3.63909H1.28864C0.613636 4.98955 0.25 6.48818 0.25 7.85227C0.25 9.21636 0.613636 10.715 1.28864 12.0655L4.25273 9.75Z" fill="#FBBC05"/>
+                        <path d="M9 2.57955C10.1591 2.57955 11.2045 2.93318 12.0568 3.62909L14.6932 1.05273C13.2386 -0.341818 11.2923 -1 9 -1C5.59091 -1 2.68409 1.16727 1.28864 3.63909L4.25273 5.95455C4.91955 3.86727 6.79773 2.57955 9 2.57955Z" fill="#EA4335"/>
+                    </svg>
+                    Sign up with Google
+                </button>
+                
+                <p class="switch-auth">
+                    Already have an account? <a href="login.html" class="page-transition">Sign in</a>
+                </p>
+            </div>
+        </div>
+        
+        <div class="image-section">
+            <div class="image-content">
+                <h1>NexusHub</h1>
+                <p>Join our creative community today</p>
+            </div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
